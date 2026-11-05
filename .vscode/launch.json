@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "GStreamer Creator",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "gst_creator",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "env": {
+        "GTK_PATH": null,
+        "GTK_EXE_PREFIX": null,
+        "GIO_MODULE_DIR": null
+      }
+    }
+  ]
+}

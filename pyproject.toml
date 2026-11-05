@@ -1,0 +1,9 @@
+[project]
+name = "gst-creator"
+dynamic = ["version"]
+description = "A graphical editor for creating GStreamer pipelines"
+readme = "README.md"
+dependencies = ["PySide6>=6.0,<7", "mcp>=1.28,<2"]
+
+[tool.setuptools.dynamic]
+version = {attr = "gst_creator.__version__"}

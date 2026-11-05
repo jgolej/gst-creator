@@ -1,0 +1,1 @@
+"""GStreamer discovery and integration."""
